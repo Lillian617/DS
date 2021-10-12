@@ -1,2 +1,2 @@
 # DS
-    use C++ # FF5733
+    <font color=#A634FE>C++</font>
