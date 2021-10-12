@@ -1,2 +1,2 @@
 # DS
-    <font color=#A634FE>C++</font>
+    <font color=red>C++</font>
