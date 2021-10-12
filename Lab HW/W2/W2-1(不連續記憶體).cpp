@@ -1,11 +1,15 @@
+/*Dynamic unconsecutive memory allocation in array.
+    完成函數 allocArray，該函數會配置一個整數的二維陣列，大小是 m * n，用 p 指向配置好的二維陣列。
+    Please finish the function allocArray
+    This function will allocate a 2-D array with size m * n, then point the array using pointer p.*/
+
 #include<iostream>
 void allocArray(int ***p, int m, int n)
 {
-    int **Arr = new int* [m];
+    (*p) = new int* [m];
     for(int i = 0; i < m; i++){
-        Arr[i] = new int[n];
+        (*p)[i] = new int[n];
     }
-    *p = Arr;//☆
 }
 
 int main()
