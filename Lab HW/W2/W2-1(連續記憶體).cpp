@@ -1,7 +1,5 @@
 /*Dynamic consecutive memory allocation in array
-    完成函數 allocArray，該函數會配置一個整數的二維陣列，大小是 m * n，用 p 指向配置好的二維陣列。
-    Please finish the function allocArray
-    This function will allocate a 2-D array with size m * n, then point the array using pointer p.*/
+    用 Array 配置連續的記憶體*/
 
 
 #include<iostream>
